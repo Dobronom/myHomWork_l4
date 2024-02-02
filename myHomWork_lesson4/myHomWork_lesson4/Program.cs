@@ -40,15 +40,14 @@
 //{
 //    a += 7;
 //    Console.WriteLine(a);
-
 //}
+
 ///*тоже самое из массива*/
 //int[] arrey = new int[100];
 //int b = 1;
 //for (int i = 0; i < arrey.Length; i++)
 //{
 //    arrey[i] = b++;
-
 //}
 //int c = 0;
 //while (arrey[c] < arrey.Length)
@@ -58,7 +57,41 @@
 //        Console.WriteLine(arrey[c]);
 //}
 
-
+/*Среднее значение и их сравнение*/
+//int[] arrey1 = new int[5];
+//int[] arrey2 = new int[5];
+//Random r = new Random();
+//for (int i = 0; i < arrey1.Length; i++)
+//{
+//    arrey1[i] = r.Next(1, 101);
+//    arrey2[i] = r.Next(1, 101);
+//}
+//int sum1 = 0;
+//int sum2 = 0;
+//foreach (int i in arrey1)
+//{
+//    Console.Write(i + " ");
+//    sum1 += i;
+//}
+//Console.WriteLine("Среднее арифметическое первого массива " + sum1 / 5);
+//foreach (int i in arrey2)
+//{
+//    Console.Write(i + " ");
+//    sum2 += i;
+//}
+//Console.WriteLine("Среднее арифметическое второго массива " + sum2 / 5);
+//if (sum1 > sum2)
+//{
+//    Console.WriteLine("У первого массива среднее значение выше");
+//}
+//else if ((sum1 / 5) < (sum2 / 5))
+//{
+//    Console.WriteLine("У второго массива среднее значение выше");
+//}
+//else
+//{
+//    Console.WriteLine("Средние значения равны");
+//}
 
 
 
