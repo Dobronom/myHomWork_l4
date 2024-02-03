@@ -115,8 +115,3 @@
 
 
 
-//Random r = new Random();
-//for (int i = 0; i < arrey.Length; i++)
-//{
-//    arrey[i] =r.Next(1,101); 
-//}
